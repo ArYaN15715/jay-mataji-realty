@@ -1,0 +1,210 @@
+import type { Property } from "../types/property";
+
+export const properties: Property[] = [
+  {
+    id: "p1",
+    title: "Spacious 3BHK Apartment",
+    price: 4500000,
+    priceLabel: "₹45 Lac",
+    type: "Buy",
+    bedrooms: 3,
+    bathrooms: 2,
+    area: 1250,
+    location: "Karelibagh",
+    tag: "HOT DEAL",
+    description:
+      "Well-ventilated 3BHK in prime Karelibagh with modular kitchen, car parking, and 24hr security.",
+    amenities: ["Parking", "Security", "Lift", "Power Backup"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p2",
+    title: "2BHK Ready-to-Move Flat",
+    price: 28000,
+    priceLabel: "₹28K/mo",
+    type: "Rent",
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 950,
+    location: "Karelibagh",
+    tag: "NEW",
+    description:
+      "Fully furnished 2BHK available immediately. Close to schools, hospitals, and market area.",
+    amenities: ["Furnished", "Parking", "Water Supply", "Lift"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p3",
+    title: "Independent Villa with Garden",
+    price: 12000000,
+    priceLabel: "₹1.2 Cr",
+    type: "Buy",
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 2800,
+    location: "Near Airport",
+    tag: "PREMIUM",
+    description:
+      "Luxurious 4BHK independent villa with private garden, 2-car garage, and smart home features.",
+    amenities: ["Garden", "Garage", "Smart Home", "Security", "Power Backup"],
+    category: "Villa",
+    image:
+      "https://images.unsplash.com/photo-1613977257363-707ba9a7e7ef?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p4",
+    title: "Budget 1BHK Near Market",
+    price: 8000,
+    priceLabel: "₹8K/mo",
+    type: "Rent",
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 450,
+    location: "Karelibagh",
+    tag: null,
+    description:
+      "Affordable 1BHK with all basic amenities. Perfect for working professionals.",
+    amenities: ["Water Supply", "Electricity", "Parking"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p5",
+    title: "Commercial Shop in Prime Location",
+    price: 6500000,
+    priceLabel: "₹65 Lac",
+    type: "Buy",
+    bedrooms: 0,
+    bathrooms: 1,
+    area: 380,
+    location: "Karelibagh",
+    tag: "HOT DEAL",
+    description:
+      "Ground floor commercial shop on main road with high footfall. Ideal for retail or showroom.",
+    amenities: ["High Footfall", "Parking", "Power Backup"],
+    category: "Shop",
+    image:
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p6",
+    title: "Plot Near Airport Road",
+    price: 3200000,
+    priceLabel: "₹32 Lac",
+    type: "Buy",
+    bedrooms: 0,
+    bathrooms: 0,
+    area: 1200,
+    location: "Near Airport",
+    tag: "FAST MOVING",
+    description:
+      "Residential plot with approved layout, corner location, excellent connectivity to airport.",
+    amenities: ["Corner Plot", "Clear Title", "Approved Layout"],
+    category: "Plot",
+    image:
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p7",
+    title: "Premium 3BHK with Terrace",
+    price: 7200000,
+    priceLabel: "₹72 Lac",
+    type: "Buy",
+    bedrooms: 3,
+    bathrooms: 3,
+    area: 1680,
+    location: "Subhanpura",
+    tag: "NEW",
+    description:
+      "Top-floor 3BHK with private terrace, premium fittings, and panoramic city views.",
+    amenities: ["Terrace", "Premium Fittings", "Gym", "Club House", "Security"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p8",
+    title: "Semi-Furnished 2BHK Flat",
+    price: 18000,
+    priceLabel: "₹18K/mo",
+    type: "Rent",
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 850,
+    location: "Fatehgunj",
+    tag: null,
+    description:
+      "Semi-furnished 2BHK in quiet residential area. Wardrobes, AC, and kitchen fittings included.",
+    amenities: ["Semi-Furnished", "AC", "Lift", "Parking"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p9",
+    title: "4BHK Bungalow with Pool",
+    price: 18500000,
+    priceLabel: "₹1.85 Cr",
+    type: "Buy",
+    bedrooms: 4,
+    bathrooms: 4,
+    area: 3600,
+    location: "Near Airport",
+    tag: "PREMIUM",
+    description:
+      "Ultra-luxury bungalow with private swimming pool, home theatre, and landscaped garden.",
+    amenities: [
+      "Swimming Pool",
+      "Home Theatre",
+      "Garden",
+      "Garage",
+      "Security",
+    ],
+    category: "Villa",
+    image:
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80&fit=crop&auto=format",
+  },
+  {
+    id: "p10",
+    title: "Affordable Studio Near College",
+    price: 12000,
+    priceLabel: "₹12K/mo",
+    type: "Rent",
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 320,
+    location: "Sayajigunj",
+    tag: "FAST MOVING",
+    description:
+      "Compact studio flat perfect for students and young professionals. Walking distance to MS University.",
+    amenities: ["WiFi Ready", "Water Supply", "Security"],
+    category: "Apartment",
+    image:
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&fit=crop&auto=format",
+  },
+];
+
+export const locations = [
+  "All",
+  "Karelibagh",
+  "Near Airport",
+  "Subhanpura",
+  "Fatehgunj",
+  "Sayajigunj",
+];
+
+export const budgetOptions = [
+  { label: "Any Budget", value: "all" },
+  { label: "Under ₹20 Lac (Buy)", value: "buy-low" },
+  { label: "₹20–50 Lac (Buy)", value: "buy-mid" },
+  { label: "₹50L–1 Cr (Buy)", value: "buy-high" },
+  { label: "1 Cr+ (Buy)", value: "buy-ultra" },
+  { label: "Under ₹15K/mo (Rent)", value: "rent-low" },
+  { label: "₹15K–30K/mo (Rent)", value: "rent-mid" },
+  { label: "₹30K+/mo (Rent)", value: "rent-high" },
+];
